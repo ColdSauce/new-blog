@@ -11,7 +11,7 @@ import ThemeSwitch from './ThemeSwitch'
 import { useTheme } from 'next-themes'
 
 const LayoutWrapper = ({ children }) => {
-  const {resolvedTheme } = useTheme();
+  const { resolvedTheme } = useTheme()
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
@@ -20,12 +20,12 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3 ">
-                <Image
-                  src="/static/images/stylish.jpg"
-                  alt="Picture of the author"
-                  width={60}
-                  height={60}
-                />
+                  <Image
+                    src="/static/images/stylish.jpg"
+                    alt="Picture of the author"
+                    width={60}
+                    height={60}
+                  />
                   {/* {Math.random() < 0.1 ? (resolvedTheme == 'dark' ? <LogoLight/> : <LogoDark/>) : } */}
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
