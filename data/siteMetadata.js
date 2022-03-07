@@ -1,11 +1,11 @@
 const siteMetadata = {
-  title: 'Blog', 
+  title: 'Blog',
   author: 'Stefan Aleksic',
   headerTitle: 'Stefan Aleksic',
   description: 'A blog about technology, security, censorship resistance, and more.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://blog.stefanaleksic.com',
   siteRepo: 'https://github.com/ColdSauce/blog',
   siteLogo: '/static/images/logo-dark.png',
   image: '/static/images/avatar.png',
@@ -19,7 +19,7 @@ const siteMetadata = {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue
     // Please add your .env file and modify it according to your selection
     provider: 'buttondown',
-  }
+  },
 }
 
 module.exports = siteMetadata
